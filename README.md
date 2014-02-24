@@ -1,2 +1,2 @@
-workspace-pdfsurvey-to-iso19139
-===============================
+Convert PDF survey to ISO19139
+==============================

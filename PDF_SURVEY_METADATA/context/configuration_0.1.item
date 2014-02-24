@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="The directory containing the CSV generated from the PDF documents" name="dir_csv" prompt="dir_csv?" promptNeeded="false" type="id_Directory" value="/home/francois/Project/2014/oieau_pdfsurvey/3_inputs/datain/"/>
+  <contextParameter comment="The directory containing the metadata produced from the CSV files" name="dir_metadata" prompt="dir_metadata?" promptNeeded="false" type="id_Directory" value="/home/francois/Project/2014/oieau_pdfsurvey/3_inputs/metadataout/"/>
+  <contextParameter comment="Default metadata language" name="metadata_language" prompt="metadata_language?" promptNeeded="false" type="id_String" value="&quot;eng&quot;"/>
+  <contextParameter comment="Default datasource language" name="datasource_language" prompt="datasource_language?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+  <contextParameter comment="Default protocol for link" name="link_protocol" prompt="link_protocol?" promptNeeded="false" type="id_String" value="&quot;WWW:LINK-1.0-http--link&quot;"/>
+  <contextParameter comment="Default link label" name="link_label" prompt="link_label?" promptNeeded="false" type="id_String" value="&quot;Consult or download the document&quot;"/>
+  <contextParameter comment="The directory for temporary file (like CSW requests)" name="dir_tmp" prompt="dir_tmp?" promptNeeded="false" type="id_String" value="/tmp/"/>
+  <contextParameter comment="The target CSW server to insert metadata in" name="csw_server_host" prompt="csw_server_host?" promptNeeded="false" type="id_String" value="&quot;http://localhost:8080/geonetwork/srv/eng/csw-publication&quot;"/>
+  <contextParameter comment="The user to sign in the catalog" name="csw_username" prompt="csw_username?" promptNeeded="false" type="id_String" value="&quot;admin&quot;"/>
+  <contextParameter comment="The user password" name="csw_password" prompt="csw_password?" promptNeeded="false" type="id_String" value="&quot;admin&quot;"/>
+</talendfile:ContextType>
