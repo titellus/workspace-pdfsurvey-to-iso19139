@@ -18,6 +18,6 @@ Convert PDF survey to ISO19139
 
 
 * Configure the context:
- * the folder where CSV file are, 
+ * the folder where CSV file are
  * the folder where metadata record should be generated
  * the CSW server URL, username and password
